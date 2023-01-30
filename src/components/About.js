@@ -10,6 +10,12 @@ export default function About() {
                         Hello, and welcome to Mitchell Foote's professional portfolio.
                         <br className="hidden lg:inline-block"/> I am a software developer and built this site to showcase some of my projects.
                     </h1>
+                    <p className="mb-8 leading-relaxed">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
                 </div>
             </div>
         </section>
