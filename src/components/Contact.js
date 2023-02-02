@@ -14,6 +14,21 @@ export default function Contact() {
                         style={{ filter: "opacity(0.7)" }} 
                         src=""
                     />
+                    <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+                        <div className="lg:w-1/2 px-6">
+                            <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+                                Address:
+                            </h2>
+                            <p className="mt-1">
+
+                            </p>
+                        </div>
+                        <div className="lg:w-1/2 px-6">
+                            <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+                                Email:
+                            </h2>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
