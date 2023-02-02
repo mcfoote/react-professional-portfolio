@@ -41,6 +41,21 @@ export default function Contact() {
                         </div>
                     </div>
                 </div>
+                <form 
+                    netlify
+                    name="contact"
+                    className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
+                >
+                    <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
+                        Hire me
+                    </h2>
+                    <p className="leading-relaxed mb-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </form>
             </div>
         </section>
     );
