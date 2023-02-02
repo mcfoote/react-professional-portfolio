@@ -27,6 +27,17 @@ export default function Contact() {
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                                 Email:
                             </h2>
+                            <p className="mt-1">
+
+                            </p>
+                        </div>
+                        <div className="lg:w-1/2 px-6">
+                            <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+                                Phone:
+                            </h2>
+                            <p className="mt-1">
+
+                            </p>
                         </div>
                     </div>
                 </div>
