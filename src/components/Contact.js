@@ -14,6 +14,17 @@ export default function Contact() {
             .join("&");
     }
 
+    function handleSubmit(e) {
+        e.preventDefault();
+        fetch("/", {
+            method: "POST",
+            headers: {"Content-Type": "application/x-www-form-urlencoded"},
+            body: encode({"form-name": "contact", name, email, message})
+        })
+        .then(() => alert("Message sent!"))
+        .catch((error) => alert(error));
+    }
+
     return (
         <section id="contact" className="relative">
             <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
@@ -24,7 +35,7 @@ export default function Contact() {
                         title="map"
                         className="absolute inset-0"
                         style={{ filter: "opacity(0.7)" }} 
-                        src=""
+                        src="https://www.google.com/maps/embed/v1/place?q=East+Lansing,+MI,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
                     />
                     <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
                         <div className="lg:w-1/2 px-6">
