@@ -32,7 +32,7 @@
     "lodash" "^4.17.15"
     "webpack-merge" "^4.2.2"
 
-"@heroicons/react@^1.0.1":
+"@heroicons/react@^1.0.6":
   "integrity" "sha512-JJCXydOFWMDpCP4q13iEplA503MQO3xLoZiKum+955ZCtHINWnx26CUxVxxFQu/uLb4LW3ge15ZpzIkXKkJ8oQ=="
   "resolved" "https://registry.npmjs.org/@heroicons/react/-/react-1.0.6.tgz"
   "version" "1.0.6"
