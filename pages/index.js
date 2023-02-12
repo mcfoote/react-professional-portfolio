@@ -3,7 +3,7 @@ import Head from 'next/head'
 import { Inter } from '@next/font/google'
 //import styles from '@/styles/Home.module.css'
 import {BsFillMoonStarsFill} from 'react-icons/bs';
-
+import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +19,7 @@ export default function Home() {
       <main className="bg-white px-10">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl font-burtons">Mitchell Foote</h1>
+            <h1 className="text-xl font-burtons">Developer Portfolio:</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill className="cursor-pointer text-2xl"/>
@@ -29,6 +29,20 @@ export default function Home() {
               </li>
             </ul>
           </nav>
+          <div className="text-center p-10">
+            <h2 className="text-5xl py-2 text-teal-600 font-medium">Mitchell Foote</h2>
+            <h3 className="text-2xl py-2">Fullstack Software Developer</h3>
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+          </div>
+          <div>
+            <AiFillGithub />
+            <AiFillLinkedin />
+          </div>
         </section>
       </main>
     </div>
