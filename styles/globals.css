@@ -6,7 +6,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Times New Roman', Times, serif;
+  /*font-family: 'Times New Roman', Times, serif; */
 }
 
 html,
@@ -21,3 +21,7 @@ a {
   text-decoration: none;
 }
 
+@font-face{
+  font-family: "burtons";
+  src: url('../public/Burtons.otf');
+}

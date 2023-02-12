@@ -4,6 +4,7 @@ import { Inter } from '@next/font/google'
 //import styles from '@/styles/Home.module.css'
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -18,7 +19,7 @@ export default function Home() {
       <main className="bg-white px-10">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl">Mitchell Foote</h1>
+            <h1 className="text-xl font-burtons">Mitchell Foote</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill className="cursor-pointer text-2xl"/>
