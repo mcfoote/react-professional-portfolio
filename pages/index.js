@@ -15,12 +15,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <main className="bg-white px-10">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1>Mitchell Foote</h1>
-            <ul>
-              <li><BsFillMoonStarsFill/></li>
+            <h1 className="text-xl">Mitchell Foote</h1>
+            <ul className="flex items-center">
+              <li><BsFillMoonStarsFill className="cursor-pointer"/></li>
               <li><a>Resume</a></li>
             </ul>
           </nav>
