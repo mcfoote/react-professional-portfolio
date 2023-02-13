@@ -49,6 +49,26 @@ export default function Home() {
             <Image src={circlePortrait} layout="fill" objectFit="cover"/>
           </div>
         </section>
+        
+        <section>
+          <div>
+            <h3 className="text-2xl py-2">Skills and Knowledges:</h3>
+            <p className="text-md py-5 leading-6 text-gray-800">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud <span className="text-teal-600">exercitation</span> ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+            <h3 className="text-2xl py-2">Languages:</h3>
+            <ul className="text-md py-5 leading-6 text-gray-800">
+              <li>Javascript</li>
+              <li>C/C++</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+        </section>
+
       </main>
     </div>
   )
