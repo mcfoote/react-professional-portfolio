@@ -5,7 +5,7 @@ import { Inter } from '@next/font/google'
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
 import Image from 'next/image';
-import portrait from '../public';
+import circlePortrait from '../public/portrait-circle.jpg';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -46,7 +46,7 @@ export default function Home() {
             <AiFillLinkedin />
           </div>
           <div className="">
-
+            <Image src={circlePortrait}/>
           </div>
         </section>
       </main>
