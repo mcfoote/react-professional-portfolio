@@ -4,6 +4,8 @@ import { Inter } from '@next/font/google'
 //import styles from '@/styles/Home.module.css'
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
+import Image from 'next/image';
+import portrait from '../public';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -42,6 +44,9 @@ export default function Home() {
           <div className="text-5xl flex justify-center gap-12 py-4 text-gray-800">
             <AiFillGithub />
             <AiFillLinkedin />
+          </div>
+          <div className="">
+
           </div>
         </section>
       </main>
