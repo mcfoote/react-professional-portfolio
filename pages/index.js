@@ -67,6 +67,9 @@ export default function Home() {
               <li>CSS</li>
             </ul>
           </div>
+          <div>
+            <Image />
+          </div>
         </section>
 
       </main>
