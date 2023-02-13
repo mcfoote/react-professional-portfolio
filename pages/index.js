@@ -45,8 +45,8 @@ export default function Home() {
             <AiFillGithub />
             <AiFillLinkedin />
           </div>
-          <div className="">
-            <Image src={circlePortrait}/>
+          <div className="relative mx-auto bg-gradient-to-b from-teal-600 rounded-full w-80 h-80 overflow-hidden">
+            <Image src={circlePortrait} layout="fill" objectFit="cover"/>
           </div>
         </section>
       </main>
