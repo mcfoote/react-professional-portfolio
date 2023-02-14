@@ -7,6 +7,10 @@ import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
 import Image from 'next/image';
 import circlePortrait from '../public/portrait-circle.jpg';
 
+import design from '../public/design.png';
+import code from '../public/code.png';
+import consulting from '../public/consulting.png';
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -68,7 +72,18 @@ export default function Home() {
             </ul>
           </div>
           <div>
-            <Image />
+            <Image src={design} width={100} height={100}/>
+            <h3 className="text-lg">Beautiful Designs</h3>
+            <p className="py-2"> 
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+            <h4 className="py-4 text-teal-600">Design tools I use</h4>
+            <p className="text-fray-800 py-1">photoshp</p>
+            <p className="text-fray-800 py-1">photoshp</p>
+            <p className="text-fray-800 py-1">photoshp</p>
           </div>
         </section>
 
