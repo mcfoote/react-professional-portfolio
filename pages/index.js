@@ -55,7 +55,7 @@ export default function Home() {
         </section>
         
         <section>
-          <div>
+          <div className="text-center">
             <h3 className="text-2xl py-2">Skills and Knowledges:</h3>
             <p className="text-md py-5 leading-6 text-gray-800">
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -71,9 +71,9 @@ export default function Home() {
               <li>CSS</li>
             </ul>
           </div>
-          <div>
+          <div className="text-center shadow-lg p-10">
             <Image src={design} width={100} height={100}/>
-            <h3 className="text-lg">Beautiful Designs</h3>
+            <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
             <p className="py-2"> 
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -81,9 +81,9 @@ export default function Home() {
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             </p>
             <h4 className="py-4 text-teal-600">Design tools I use</h4>
-            <p className="text-fray-800 py-1">photoshp</p>
-            <p className="text-fray-800 py-1">photoshp</p>
-            <p className="text-fray-800 py-1">photoshp</p>
+            <p className="text-fray-800 py-1">photoshop</p>
+            <p className="text-fray-800 py-1">photoshop</p>
+            <p className="text-fray-800 py-1">photoshop</p>
           </div>
         </section>
 
