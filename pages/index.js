@@ -130,15 +130,15 @@ export default function Home() {
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             </p>
           </div>
-          <div>
-            <div>
-              <Image src={project1}/>
+          <div className="felx flex-co gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <div className="basis-1/3 flex-1">
+              <Image src={project1} className="rounded-lg object-cover" width={'100%'} height="100%" layout="responsive"/>
             </div>
-            <div>
-              <Image src={project2}/>
+            <div className="basis-1/3 flex-1">
+              <Image src={project2} className="rounded-lg object-cover" width={'100%'} height="100%" layout="responsive"/>
             </div>
-            <div>
-              <Image src={project3}/>
+            <div className="basis-1/3 flex-1">
+              <Image src={project3} className="rounded-lg object-cover" width={'100%'} height="100%" layout="responsive"/>
             </div>
           </div>
         </section>
