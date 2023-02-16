@@ -42,7 +42,7 @@ export default function Home() {
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Mitchell Foote</h2>
             <h3 className="text-2xl py-2 md:text-3xl">Fullstack Software Developer</h3>
-            <p className="text-md py-5 leading-6 text-gray-800 md:text-xl">
+            <p className="text-md py-5 leading-6 text-gray-800 md:text-xl max-w-xl mx-auto">
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
@@ -53,7 +53,7 @@ export default function Home() {
             <AiFillGithub />
             <AiFillLinkedin />
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-teal-600 rounded-full w-80 h-80 overflow-hidden">
+          <div className="relative mx-auto bg-gradient-to-b from-teal-600 rounded-full w-80 h-80 overflow-hidden md:h-96 md:w-96">
             <Image src={circlePortrait} layout="fill" objectFit="cover"/>
           </div>
         </section>
@@ -75,7 +75,7 @@ export default function Home() {
               <li>CSS</li>
             </ul>
           </div>
-          <div>
+          <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
               <Image src={design} width={100} height={100}/>
               <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
