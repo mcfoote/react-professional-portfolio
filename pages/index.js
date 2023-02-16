@@ -26,7 +26,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-white px-10">
+      <main className="bg-white px-10 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-xl font-burtons">Developer Portfolio:</h1>
@@ -129,6 +129,17 @@ export default function Home() {
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             </p>
+          </div>
+          <div>
+            <div>
+              <Image src={project1}/>
+            </div>
+            <div>
+              <Image src={project2}/>
+            </div>
+            <div>
+              <Image src={project3}/>
+            </div>
           </div>
         </section>
       </main>
