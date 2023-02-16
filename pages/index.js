@@ -11,6 +11,10 @@ import design from '../public/design.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
 
+import project1 from '../public/project1.png';
+import project2 from '../public/project2.png';
+import project3 from '../public/project3.png';
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
