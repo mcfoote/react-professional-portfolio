@@ -82,7 +82,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={design} width={100} height={100}/>
+              <Image src={project1} className="mx-auto"/>
               <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
               <p className="py-2"> 
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -96,7 +96,7 @@ export default function Home() {
               <p className="text-fray-800 py-1">photoshop</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={code} width={100} height={100}/>
+              <Image src={project2} className="mx-auto"/>
               <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
               <p className="py-2"> 
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -110,7 +110,7 @@ export default function Home() {
               <p className="text-fray-800 py-1">photoshop</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={consulting} width={100} height={100}/>
+              <Image src={project3} className="mx-auto"/>
               <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
               <p className="py-2"> 
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
