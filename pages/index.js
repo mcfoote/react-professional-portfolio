@@ -82,46 +82,45 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={project1} className="mx-auto"/>
-              <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
+              <Image src={project1} className="mx-auto rounded-lg"/>
+              <h3 className="text-lg font-medium pt-8 pb-2">Magic the Gathering Deck Builder</h3>
               <p className="py-2"> 
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "Magic the Gathering Deck Builder is a website that will allow you to build a commander deck and price out the cost of purchasing the required cards for the current market rate of said cards in USD or EUR. 
+                This is acomplished using responsive searching and pricing functions utilizing the scryfall api, the currency layer api is used to convert prices to euros, 
+                the Bulma CSS framework is used to provide a polished interface which is responsive and scalable between mobile and desktop environments. 
+                Client-side storage is used to pass data between pages providing seamless functionality and moment.js api provides time data to anchor the site with a live environment feeling."
               </p>
-              <h4 className="py-4 text-teal-600">Design tools I use</h4>
-              <p className="text-fray-800 py-1">photoshop</p>
-              <p className="text-fray-800 py-1">photoshop</p>
-              <p className="text-fray-800 py-1">photoshop</p>
+              <h4 className="py-4 text-teal-600">Technologies Used</h4>
+              <p className="text-fray-800 py-1">HTML</p>
+              <p className="text-fray-800 py-1">CSS</p>
+              <p className="text-fray-800 py-1">Javascript</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={project2} className="mx-auto"/>
-              <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
+              <Image src={project2} className="mx-auto rounded-lg"/>
+              <h3 className="text-lg font-medium pt-8 pb-2">Agora Web Forum</h3>
               <p className="py-2"> 
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "Agora is an open web forum inspired by reddit, hacker news, and old web hobbyiest forums, 
+                aiming to be based on user generated content for now there are four boards users can browse post threads and comment on the threads. 
+                The site was buit using JS/HTML/CSS, Bootstrap, MySQL, Sequelize, Node.js, Expressjs."
               </p>
-              <h4 className="py-4 text-teal-600">Design tools I use</h4>
-              <p className="text-fray-800 py-1">photoshop</p>
-              <p className="text-fray-800 py-1">photoshop</p>
-              <p className="text-fray-800 py-1">photoshop</p>
+              <h4 className="py-4 text-teal-600">Technologies Used</h4>
+              <p className="text-fray-800 py-1">SQL</p>
+              <p className="text-fray-800 py-1">Node</p>
+              <p className="text-fray-800 py-1">Express.js</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={project3} className="mx-auto"/>
-              <h3 className="text-lg font-medium pt-8 pb-2">Beautiful Designs</h3>
+              <Image src={project3} className="mx-auto rounded-lg"/>
+              <h3 className="text-lg font-medium pt-8 pb-2">Chatterbox chat app</h3>
               <p className="py-2"> 
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "A fullstack MERN based Real time chat app inspired by Messenger and Discord. 
+                Built using MongoDb and Mongoose with graphql for database, Express.js and Node.js for server functionality, Using react for the front-end. 
+                Users can register an account which will be authenticated upon login, allowing the user to message friends in chat threads. 
+                Deployed using Heroku Web Services."
               </p>
-              <h4 className="py-4 text-teal-600">Design tools I use</h4>
-              <p className="text-fray-800 py-1">photoshop</p>
-              <p className="text-fray-800 py-1">photoshop</p>
-              <p className="text-fray-800 py-1">photoshop</p>
+              <h4 className="py-4 text-teal-600">Technologies Used</h4>
+              <p className="text-fray-800 py-1">MongoDB</p>
+              <p className="text-fray-800 py-1">Graphql</p>
+              <p className="text-fray-800 py-1">Node</p>
             </div>
           </div>
         </section>
@@ -134,17 +133,6 @@ export default function Home() {
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             </p>
-          </div>
-          <div className="felx flex-co gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1">
-              <Image src={project1} className="rounded-lg object-cover" width={'50%'} height="50%" layout="responsive"/>
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image src={project2} className="rounded-lg object-cover" width={'50%'} height="50%" layout="responsive"/>
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image src={project3} className="rounded-lg object-cover" width={'50%'} height="50%" layout="responsive"/>
-            </div>
           </div>
         </section>
       </main>
