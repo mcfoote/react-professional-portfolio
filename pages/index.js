@@ -34,10 +34,10 @@ export default function Home() {
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl font-burtons">Developer Portfolio:</h1>
+            <h1 className="text-xl font-burtons dark:text-orange-500">Developer Portfolio:</h1>
             <ul className="flex items-center">
               <li>
-                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl"/>
+                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl dark:text-white"/>
               </li>
               <li>
                 <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="#">Resume</a>
@@ -46,8 +46,8 @@ export default function Home() {
           </nav>
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Mitchell Foote</h2>
-            <h3 className="text-2xl py-2 md:text-3xl">Fullstack Software Developer</h3>
-            <p className="text-md py-5 leading-6 text-gray-800 md:text-xl max-w-xl mx-auto">
+            <h3 className="text-2xl py-2 md:text-3xl dark:text-orange-600">Fullstack Software Developer</h3>
+            <p className="text-md py-5 leading-6 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-orange-800">
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
@@ -65,14 +65,14 @@ export default function Home() {
         
         <section>
           <div className="text-center">
-            <h3 className="text-2xl py-2">Skills and Knowledges:</h3>
+            <h3 className="text-2xl py-2 dark:text-orange-600">Skills and Knowledges:</h3>
             <p className="text-md py-5 leading-6 text-gray-800">
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
               Ut enim ad minim veniam, quis nostrud <span className="text-teal-600">exercitation</span> ullamco laboris nisi ut aliquip ex ea commodo consequat. 
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             </p>
-            <h3 className="text-2xl py-2">Languages:</h3>
+            <h3 className="text-2xl py-2 dark:text-orange-600">Languages:</h3>
             <ul className="text-md py-5 leading-6 text-gray-800">
               <li>Javascript</li>
               <li>C/C++</li>
@@ -82,8 +82,8 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={project1} className="mx-auto rounded-lg"/>
-              <h3 className="text-lg font-medium pt-8 pb-2">Magic the Gathering Deck Builder</h3>
+              <Image src={project1} className="mx-auto rounded-lg "/>
+              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-orange-600">Magic the Gathering Deck Builder</h3>
               <p className="py-2"> 
                 "Magic the Gathering Deck Builder is a website that will allow you to build a commander deck and price out the cost of purchasing the required cards for the current market rate of said cards in USD or EUR. 
                 This is acomplished using responsive searching and pricing functions utilizing the scryfall api, the currency layer api is used to convert prices to euros, 
@@ -96,8 +96,8 @@ export default function Home() {
               <p className="text-fray-800 py-1">Javascript</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={project2} className="mx-auto rounded-lg"/>
-              <h3 className="text-lg font-medium pt-8 pb-2">Agora Web Forum</h3>
+              <Image src={project2} className="mx-auto rounded-lg "/>
+              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-orange-600">Agora Web Forum</h3>
               <p className="py-2"> 
                 "Agora is an open web forum inspired by reddit, hacker news, and old web hobbyiest forums, 
                 aiming to be based on user generated content for now there are four boards users can browse post threads and comment on the threads. 
@@ -109,8 +109,8 @@ export default function Home() {
               <p className="text-fray-800 py-1">Express.js</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={project3} className="mx-auto rounded-lg"/>
-              <h3 className="text-lg font-medium pt-8 pb-2">Chatterbox chat app</h3>
+              <Image src={project3} className="mx-auto rounded-lg "/>
+              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-orange-600">Chatterbox chat app</h3>
               <p className="py-2"> 
                 "A fullstack MERN based Real time chat app inspired by Messenger and Discord. 
                 Built using MongoDb and Mongoose with graphql for database, Express.js and Node.js for server functionality, Using react for the front-end. 
