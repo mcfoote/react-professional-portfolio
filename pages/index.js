@@ -54,10 +54,7 @@ export default function Home() {
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             </p>
           </div>
-          <div className="text-5xl flex justify-center gap-12 py-4 text-gray-800">
-            <AiFillGithub />
-            <AiFillLinkedin />
-          </div>
+
           <div className="relative mx-auto bg-gradient-to-b from-teal-600 rounded-full w-80 h-80 overflow-hidden md:h-96 md:w-96">
             <Image src={circlePortrait} layout="fill" objectFit="cover"/>
           </div>
@@ -75,9 +72,12 @@ export default function Home() {
             <h3 className="text-2xl py-2 dark:text-orange-600">Languages:</h3>
             <ul className="text-md py-5 leading-6 text-gray-800">
               <li>Javascript</li>
-              <li>C/C++</li>
+              <li>C++</li>
               <li>HTML</li>
               <li>CSS</li>
+              <li>C</li>
+              <li>Java</li>
+              <li></li>
             </ul>
           </div>
           <h3 className="text-center text-4xl py-4 dark:text-orange-600">Portfolio</h3>
@@ -129,11 +129,18 @@ export default function Home() {
           <div className="text-center">
             <h3 className="text-center text-3xl font-medium pt-8 pb-2 dark:text-orange-600">Contact</h3>
             <p className="text-md py-5 leading-6 text-gray-800 dark:text-orange-800">
-              Feel free to contact me at my email linkedin or github
+              Feel free to contact me at my email linkedin or github.
+              <br />
+              Email: mcFoote321@gmail.com
             </p>
-            <ul>
-
-            </ul>
+            <div className="text-5xl flex justify-center gap-12 py-4 text-gray-800">
+            <a href="https://github.com/mcfoote" target="_blank">
+              <AiFillGithub />
+            </a>
+            <a href="https://www.linkedin.com/in/mitch-foote-4910a1265/" target="_blank">
+              <AiFillLinkedin />
+            </a>
+          </div>
           </div>
         </section>
       </main>
