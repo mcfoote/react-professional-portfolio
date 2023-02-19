@@ -66,7 +66,7 @@ export default function Home() {
         <section>
           <div className="text-center">
             <h3 className="text-2xl py-2 dark:text-orange-600">Skills and Knowledges:</h3>
-            <p className="text-md py-5 leading-6 text-gray-800">
+            <p className="text-md py-5 leading-6 text-gray-800 dark:text-orange-800">
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
               Ut enim ad minim veniam, quis nostrud <span className="text-teal-600">exercitation</span> ullamco laboris nisi ut aliquip ex ea commodo consequat. 
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
@@ -84,7 +84,7 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
               <Image src={project1} className="mx-auto rounded-lg "/>
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-orange-600">Magic the Gathering Deck Builder</h3>
-              <p className="py-2"> 
+              <p className="py-2 dark:text-orange-800"> 
                 "Magic the Gathering Deck Builder is a website that will allow you to build a commander deck and price out the cost of purchasing the required cards for the current market rate of said cards in USD or EUR. 
                 This is acomplished using responsive searching and pricing functions utilizing the scryfall api, the currency layer api is used to convert prices to euros, 
                 the Bulma CSS framework is used to provide a polished interface which is responsive and scalable between mobile and desktop environments. 
@@ -98,7 +98,7 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
               <Image src={project2} className="mx-auto rounded-lg "/>
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-orange-600">Agora Web Forum</h3>
-              <p className="py-2"> 
+              <p className="py-2 dark:text-orange-800"> 
                 "Agora is an open web forum inspired by reddit, hacker news, and old web hobbyiest forums, 
                 aiming to be based on user generated content for now there are four boards users can browse post threads and comment on the threads. 
                 The site was buit using JS/HTML/CSS, Bootstrap, MySQL, Sequelize, Node.js, Expressjs."
@@ -111,7 +111,7 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
               <Image src={project3} className="mx-auto rounded-lg "/>
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-orange-600">Chatterbox chat app</h3>
-              <p className="py-2"> 
+              <p className="py-2 dark:text-orange-800"> 
                 "A fullstack MERN based Real time chat app inspired by Messenger and Discord. 
                 Built using MongoDb and Mongoose with graphql for database, Express.js and Node.js for server functionality, Using react for the front-end. 
                 Users can register an account which will be authenticated upon login, allowing the user to message friends in chat threads. 
@@ -127,7 +127,7 @@ export default function Home() {
         <section>
           <div>
             <h3 className="text-3xl py-2">Portfolio</h3>
-            <p className="text-md py-5 leading-6 text-gray-800">
+            <p className="text-md py-5 leading-6 text-gray-800 dark:text-orange-800">
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
