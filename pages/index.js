@@ -80,6 +80,7 @@ export default function Home() {
               <li>CSS</li>
             </ul>
           </div>
+          <h3 className="text-center text-4xl py-4 dark:text-orange-600">Portfolio</h3>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
               <Image src={project1} className="mx-auto rounded-lg "/>
@@ -125,14 +126,14 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <div>
-            <h3 className="text-3xl py-2">Portfolio</h3>
+          <div className="text-center">
+            <h3 className="text-center text-3xl font-medium pt-8 pb-2 dark:text-orange-600">Contact</h3>
             <p className="text-md py-5 leading-6 text-gray-800 dark:text-orange-800">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              Feel free to contact me at my email linkedin or github
             </p>
+            <ul>
+
+            </ul>
           </div>
         </section>
       </main>
