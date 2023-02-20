@@ -94,9 +94,14 @@ export default function Home() {
                 Client-side storage is used to pass data between pages providing seamless functionality and moment.js api provides time data to anchor the site with a live environment feeling."
               </p>
               <h4 className="py-4 text-teal-600 dark:text-purple-600">Technologies Used</h4>
-              <p className="text-fray-800 py-1">HTML</p>
-              <p className="text-fray-800 py-1">CSS</p>
-              <p className="text-fray-800 py-1">Javascript</p>
+              <ul className="text-md py-5 leading-6 text-gray-800 dark:text-purple-500">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+              </ul>
+              <p className="text-fray-800 py-1"></p>
+              <p className="text-fray-800 py-1"></p>
+              <p className="text-fray-800 py-1"></p>
               <h4 className="py-6">
                 <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 dark:from-purple-400 dark:to-purple-900" href="https://github.com/mcfoote/MTG-Deck-Builder" target="_blank">Repository:</a>
               </h4>
@@ -110,9 +115,14 @@ export default function Home() {
                 The site was buit using JS/HTML/CSS, Bootstrap, MySQL, Sequelize, Node.js, Expressjs."
               </p>
               <h4 className="py-4 text-teal-600 dark:text-purple-600">Technologies Used</h4>
-              <p className="text-fray-800 py-1">SQL</p>
-              <p className="text-fray-800 py-1">Node</p>
-              <p className="text-fray-800 py-1">Express.js</p>
+              <ul className="text-md py-5 leading-6 text-gray-800 dark:text-purple-500">
+                <li>SQL</li>
+                <li>Node</li>
+                <li>Express.js</li>
+              </ul>
+              <h4 className="py-6">
+                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 dark:from-purple-400 dark:to-purple-900" href="https://github.com/mcfoote/agoraWebForum" target="_blank">Repository:</a>
+              </h4>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
               <Image src={project3} className="mx-auto rounded-lg "/>
@@ -124,9 +134,14 @@ export default function Home() {
                 Deployed using Heroku Web Services."
               </p>
               <h4 className="py-4 text-teal-600 dark:text-purple-600">Technologies Used</h4>
-              <p className="text-fray-800 py-1">MongoDB</p>
-              <p className="text-fray-800 py-1">Graphql</p>
-              <p className="text-fray-800 py-1">Node</p>
+              <ul className="text-md py-5 leading-6 text-gray-800 dark:text-purple-500">
+                <li>MongoDB</li>
+                <li>Graphql</li>
+                <li>Node</li>
+              </ul>
+              <h4 className="py-6">
+                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 dark:from-purple-400 dark:to-purple-900" href="https://github.com/mcfoote/Chatter-Box" target="_blank">Repository:</a>
+              </h4>
             </div>
           </div>
         </section>
