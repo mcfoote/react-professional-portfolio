@@ -101,6 +101,9 @@ export default function Home() {
               <p className="text-fray-800 py-1">HTML</p>
               <p className="text-fray-800 py-1">CSS</p>
               <p className="text-fray-800 py-1">Javascript</p>
+              <h4 className="py-6">
+                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 dark:from-purple-400 dark:to-purple-900" href="https://github.com/mcfoote/MTG-Deck-Builder" target="_blank">Repository:</a>
+              </h4>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
               <Image src={project2} className="mx-auto rounded-lg "/>
