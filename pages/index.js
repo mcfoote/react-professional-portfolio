@@ -76,7 +76,7 @@ export default function Home() {
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             </p>
             <h3 className="text-2xl py-2 dark:text-orange-600">Languages:</h3>
-            <ul className="text-md py-5 leading-6 text-gray-800">
+            <ul className="text-md py-5 leading-6 text-gray-800 dark:text-purple-500">
               <li>Javascript</li>
               <li>C++</li>
               <li>HTML</li>
